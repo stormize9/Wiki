@@ -1,0 +1,177 @@
+
+site_name: Docs by Stormize
+site_url: https://docs.stormize.fr
+site_description: Personnal docs
+
+
+theme:
+  font:
+    code: Montserrat
+  name: material
+  logo: _index/logo.png
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - content.code.copy
+    - navigation.indexes
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+
+
+
+extra:
+  homepage: https://stormize.fr/
+  base_url: https://docs.stormize.fr/
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+
+extra_css:
+  - _index/stylesheets/extra.css
+
+
+repo_url: https://github.com/stormize9/Wiki
+repo_name: stormize/wiki
+
+nav:
+  - Home: index.md
+  - Automation and deployment:
+    - Ansible:
+      - Ansible: _index/Automation and deployment/Ansible/index.md
+      - Getting started: Automation and deployment/Ansible/Getting started.md
+      - Playbooks:
+        - ansible.builtin.copy: Automation and deployment/Ansible/playbooks/ansible.builtin.copy.md
+        - ansible.builtin.fetch: Automation and deployment/Ansible/playbooks/ansible.builtin.fetch.md
+        - ansible.builtin.get_url: Automation and deployment/Ansible/playbooks/ansible.builtin.get_url.md
+    - AI: 
+      - AI List: Automation and deployment/AI/AI List.md
+    - Docker:
+      - Docker: _index/Automation and deployment/Docker/index.md
+      - Command: Automation and deployment/Docker/Command.md
+    - Github:
+      - Github: _index/Automation and deployment/Github/index.md
+      - Credential config: Automation and deployment/Github/Credential config.md
+  - Network:
+    - Cisco: 
+      - Cisco: _index/Network/Cisco/index.md
+      - Meraki: Network/Cisco/Meraki.md
+    - Fortinet:
+      - Fortinet: _index/Network/Fortinet/index.md
+      - FortiAnalyzer: Network/Fortinet/FortiAnalyzer.md
+    - OpenVPN:
+      - OpenVPN: _index/Network/OpenVPN/index.md
+      - Tutorial deployment: Network/OpenVPN/Tutorial deployment.md
+      - Docker OpenVPN: Network/OpenVPN/Docker OpenVPN.md
+    - Tools:
+      - mRemoteNG: Network/Tools/mRemoteNG.md
+  - Operating System:
+    - Linux:
+      - Linux: _index/Operating System/Linux/index.md
+      - Crontab: Operating System/Linux/Crontab.md
+      - Fail2Ban: Operating System/Linux/Fail2Ban.md
+      - Grep: Operating System/Linux/Grep.md
+      - Journalctl: Operating System/Linux/Journalctl.md
+      - Open ports: Operating System/Linux/Open ports.md
+      - SSH: Operating System/Linux/SSH.md
+      - Backup: Operating System/Linux/Backup.md
+    - Windows: 
+      - Windows: _index/Operating System/Windows/index.md
+      - Active Directory: Operating System/Windows/Active Directory.md
+  - Programmation:
+    - Command Line:
+      - Command Line: _index/Programmation/Command Line/index.md
+      - Curl: Programmation/Command Line/Curl.md
+      - Powershell: Programmation/Command Line/Powershell.md
+      - Windows CLI: Programmation/Command Line/Windows CLI.md
+      - Magick: Programmation/Command Line/Magick.md
+    - Markdown: 
+      - Markdown: _index/Programmation/Markdown/index.md
+      - Pictures: Programmation/Markdown/Pictures.md
+      - Frontmatter: Programmation/Markdown/Frontmatter.md
+    - Python:
+      - Python: _index/Programmation/Python/index.md
+      - Installation: Programmation/Python/Installation.md
+      - API Request: Programmation/Python/API Request.md
+      - Bruteforce: Programmation/Python/Bruteforce.md
+      - Database request: Programmation/Python/Database request.md
+      - Scrapping: Programmation/Python/Scrapping.md
+  - Security: 
+    - Cryptography:
+      - Hashcat: Security/Cryptography/Hashcat.md
+      - Crypto tools: Security/Cryptography/Crypto tools.md
+    - Osint:
+      - Osint: _index/Security/Osint/index.md
+      - Archives: Security/Osint/Archives.md
+      - CTI: Security/Osint/CTI.md
+      - Companies: Security/Osint/Companies.md
+      - DNS-IP: Security/Osint/DNS-IP.md
+      - Geoint: Security/Osint/Geoint.md
+      - Github: Security/Osint/Github.md
+      - Mails: Security/Osint/Mails.md
+      - OSINT Tools: Security/Osint/OSINT Tools.md
+      - theHarvester: Security/Osint/theHarvester.md
+      - People and social media: Security/Osint/People and social media.md
+    - Steganography:
+      - Steganography: _index/Security/Steganography/index.md
+      - Foremost: Security/Steganography/Foremost.md
+      - Outguess: Security/Steganography/Outguess.md
+      - Steghide: Security/Steganography/Steghide.md
+    - Pentest:
+      - NMAP: Security/Pentest/NMAP.md
+  - Web: 
+    - Flask: 
+      - Deployment: Web/Flask/Deployment.md
+      - SQLAlchemy: Web/Flask/SQLAlchemy.md
+    - Tools:
+      - SSL Certificates: Web/Tools/SSL Certificates.md
+      - URL Exctractor: Web/Tools/URL Exctractor.md
+      - URL Spoofing: Web/Tools/URL Spoofing.md
+
+
+
+   
+
+      
+
+
+
+
+
+
+
+
