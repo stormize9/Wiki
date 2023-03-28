@@ -153,6 +153,7 @@ nav:
       - Steghide: Security/Steganography/Steghide.md
     - Pentest:
       - NMAP: Security/Pentest/NMAP.md
+      - Hydra: Security/Pentest/Hydra.md
   - Web: 
     - Flask: 
       - Deployment: Web/Flask/Deployment.md
