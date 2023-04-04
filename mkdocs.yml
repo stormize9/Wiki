@@ -155,7 +155,7 @@ nav:
       - NMAP: Security/Pentest/NMAP.md
       - Burp suite: Security/Pentest/Burp suite.md
       - Hydra: Security/Pentest/Hydra.md
-      - Hydra: Security/Pentest/exploit-db.md
+      - exploit-db: Security/Pentest/exploit-db.md
   - Web: 
     - Flask: 
       - Deployment: Web/Flask/Deployment.md
