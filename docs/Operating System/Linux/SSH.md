@@ -62,30 +62,40 @@
 	```
 
 
+- - - 
+#### Specify a ssh key
+
+
+```
+	ssh -i <key> <user>@<ip>
+```
+
+
+
 
 ---
 
 ### Log SSH
 
-##### See all logs 
+See all logs 
 
 ```
 sudo grep 'sshd' /var/log/auth.log
 ```
 
-##### Show login attempts 
+Show login attempts 
 
 ```
 sudo lastb -F
 ```
 
-##### Show failed password attempts 
+Show failed password attempts 
 ```
 sudo grep 'Failed password' /var/log/auth.log
 ```
 
 
-##### Show success password attempts  
+Show success password attempts  
 
 
 ```
