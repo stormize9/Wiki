@@ -19,4 +19,10 @@ Automation and deployment refer to the use of technology and processes to automa
 
 #### [Programmation](/_index/Programmation/Command%20Line)
 
-#### [Programmation](/_index/Security/Cryptography/Hashcat)
+
+
+#### [Security](/_index/Security/Cryptography/Hashcat)
+
+Cryptoghraphy, OSINT, Steganography, Pentest
+
+#### [Web](/_index/Security/Cryptography/Hashcat)

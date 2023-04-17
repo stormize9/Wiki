@@ -3,7 +3,7 @@
 
 - [theHarvester](theHarvester.md)
 - [viewdns.info](https://viewdns.info/)
-
+- [Red Flag Domains](https://red.flag.domains/) : recently registered malicious domain
 
 
 #### FQDN
